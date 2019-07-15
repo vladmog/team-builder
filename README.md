@@ -59,7 +59,7 @@ x- Render your `Form` component in `App` and pass a setter method (the `set_____
 Next we're going to reuse the `Form` component to edit team members
 
 **Get App.js ready for editing members**
-- Add an edit button, or an edit icon next to each member you are rendering. When the button/icon is clicked, we want to set that member to a state property in `App` called `memberToEdit`. The function to do this should live in `App`, even if the button/icon invoking it are in a different component. Just pass the function down as a prop.
+x- Add an edit button, or an edit icon next to each member you are rendering. When the button/icon is clicked, we want to set that member to a state property in `App` called `memberToEdit`. The function to do this should live in `App`, even if the button/icon invoking it are in a different component. Just pass the function down as a prop.
 
 **Get Form.js ready to edit members**
 - Pass `memberToEdit` down to `Form.js`

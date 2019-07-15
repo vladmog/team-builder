@@ -6,7 +6,12 @@ function Friends(props) {
         <div>
             {props.friends.map(friend => {
                 return(
-                    <Friend key = {Math.random()} friend = {friend} />
+                    <Friend 
+                        key = {Math.random()} 
+                        friend = {friend} 
+                        setMemberToEdit = {props.setMemberToEdit}
+                        memberToEdit = {props.memberToEdit}
+                    />
                 )
             })}
         </div>
